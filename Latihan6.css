@@ -231,7 +231,7 @@ td {
     letter-spacing: 1,6px;
     text-align: center;
     border-style: dotted;
-    background-image: url('/Latihan/Images/backgroundraya.jpg');
+    background-image: url('backgroundraya.jpg');
 }
 
 .footer {
