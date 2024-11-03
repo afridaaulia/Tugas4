@@ -1,0 +1,267 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; 
+  box-sizing: border-box;
+}
+body{
+  font-family: serif;
+}
+.bgbody{
+  background-color: #FFF6E3;
+} 
+nav{
+  background: #6A1E55;
+  height: 90px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  line-height: 85px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background:#DE7C7D;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 85px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size:16px ;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 640px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+ table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+}
+.card-container {
+  margin-top: 60px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%; 
+  table-layout: fixed; 
+}
+
+.card {
+  width: 225px;
+  height: 350px;
+  background-color: #e9c6a3;
+  border: 3px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.8);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+}
+
+.card-content {
+  padding: 5px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: brown;
+}
+
+.card-content h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: brown;
+  font-family: cursive;
+}
+
+.card-button {
+  display: inline-block;
+  background-color: #FDDBBB;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 2px 2px;
+  font-size: small;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.card {
+  outline: 3px #3D0301;
+  outline-style: dotted;
+}
+
+td {
+  width: 50%; 
+  padding: 10px; 
+}
+
+.header-icon {
+  color: white;
+  font-size: 10px;
+  color: black;
+  cursor: pointer;
+  z-index: 10000;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.header-icon .bx {
+  color: var(-- background-color);
+}
+
+.header-icon li {
+  list-style-type: none;
+}
+
+.header-icon li a {
+  color: brown;
+}
+.p1{
+    font-size: 20px;
+    font-family: serif;
+    margin: 0 auto;
+    padding: 100px 70px;
+    color: white; 
+    max-width: 800px; 
+    line-height: 1.0;
+    letter-spacing: 1,6px;
+    text-align: center;
+    border-style: dotted;
+    background-image: url('/Latihan/Images/backgroundraya.jpg');
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #6A1E55;
+   color: white;
+   text-align: center;
+}
+.gambar-container {
+  text-align: center; 
+}
+
+.gambar-tautan {
+  display: inline-block; 
+  margin: 10px; 
+}
+
+.gambar-tautan img {
+  width: 40px; 
+  height: 30px; 
+  display: block;
+  border: none;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.icon-container {
+    font-size: 24px;
+    color: white;     
+    margin-right: 10px;
+    margin-right: 10px; 
+
