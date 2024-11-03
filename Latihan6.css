@@ -231,7 +231,7 @@ td {
     letter-spacing: 1,6px;
     text-align: center;
     border-style: dotted;
-    background-image: url('Images/backgroundraya.jpg');
+    background-image: url('/Latihan/Images/backgroundraya.jpg');
 }
 
 .footer {
@@ -259,9 +259,8 @@ td {
   border-radius: 15px;
   margin: 0 auto;
 }
-.icon-container {
-    font-size: 30px;
-    color: white;     
-    margin-right: 10px;
-    margin-right: 10px; 
+fas fa-home{
+  font-size: 40px;
+  color: white;
+}
 
